@@ -39,4 +39,4 @@ def get_accurate(threshold, gradeDict, labelDict):
 if __name__ == '__main__':
     gradeDict, labelDict = getDict("grades.csv", "label.csv")
     plot_scatter(gradeDict, labelDict)
-    print(get_accurate([30, 35], gradeDict, labelDict))
+    print(get_accurate([36, 40], gradeDict, labelDict))
